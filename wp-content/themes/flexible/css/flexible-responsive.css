@@ -1,0 +1,245 @@
+    /* Large desktop */
+    
+    @media (max-width: 1200px) {
+        .mt-container {
+            width: 100%;
+            padding: 0 1%;
+        }
+        .slide-caption {
+            font-size: 50px;
+        }
+        .portfolio-content-wrapper .portfolio-title {
+            padding: 10px;
+            font-size: 16px;
+            width: 70%;
+            text-align: center;
+        }
+        .cta-title-wrap {
+            width: 70%;
+        }
+    }
+    /* Portrait tablet to landscape and desktop */
+    
+    @media (min-width: 768px) and (max-width: 979px) {
+        .cta-title-wrap {
+            float: left;
+            width: 70%;
+        }
+        .slider-caption-wrapper {
+            margin-left: -325px;
+            width: 650px;
+        }
+        .slide-caption {
+            font-size: 40px;
+        }
+        .slide-info {
+            padding: 3px 30px;
+        }
+        .slider-btn {
+            margin: 19px 0 0;
+            padding: 4px 30px;
+        }
+        #site-navigation ul li a {
+            color: #333;
+            display: block;
+            font-weight: 600;
+            padding: 0 20px;
+            text-transform: capitalize;
+        }
+        .service_icon_class {
+            line-height: 50px;
+        }
+        .portfolio-pages-wrapper > .clearfix {
+            display: none;
+        }
+        .portfolio-pages-wrapper > .single-portfolio-wrapper.clearfix {
+            width: 33.33%;
+            display: block;
+        }
+        .blog-content-wrapper .news-title {
+            font-size: 14px;
+        }
+    }
+    /* Landscape phone to portrait tablet */
+    
+    @media (max-width: 767px) {
+        #masthead {
+            padding: 10px 0;
+            position: relative;
+        }
+        .menu-toggle {
+            display: block;
+            font-size: 22px;
+            line-height: 45px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        #primary-menu {
+            background: #fff none repeat scroll 0 0;
+            left: 0;
+            position: absolute;
+            top: 100%;
+            width: 100%;
+        }
+        #site-navigation #primary-menu {
+            display: none;
+        }
+        #site-navigation ul li {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            display: block;
+            float: none;
+            line-height: 45px;
+        }
+        .slide-caption {
+            font-size: 32px;
+        }
+        .slide-info {
+            padding: 3px 30px;
+            font-size: 18px;
+        }
+        .slider-btn {
+            margin: 19px 0 0;
+            padding: 4px 30px;
+        }
+        .about-section-wrapper .section-content-wrapper {
+            float: none;
+            text-align: center;
+            width: 100%;
+        }
+        .widget .about-section-wrapper .widget-title::after {
+            left: 50%;
+            margin-left: -15px;
+        }
+        .about-section-wrapper .page-thumb-wrapper {
+            float: none;
+            margin-top: 30px;
+            text-align: center;
+            width: 100%;
+        }
+        .flexible_services_section .service-pages-wrapper .clearfix {
+            display: none;
+        }
+        .flexible_services_section .service-pages-wrapper .single-service-wrapper.clearfix {
+            display: inline-block;
+            float: none;
+            margin-right: -4px;
+            vertical-align: top;
+            width: 47%;
+        }
+        .service_icon_class {
+            line-height: 50px;
+        }
+        .portfolio-pages-wrapper > .clearfix {
+            display: none;
+        }
+        .portfolio-pages-wrapper > .single-portfolio-wrapper.clearfix {
+            width: 33.33%;
+            display: block;
+        }
+        .blog-content-wrapper .news-title {
+            font-size: 14px;
+        }
+        .cta-button {
+            padding: 6px 30px;
+        }
+        .single-post-wrapper.mt-column-3 {
+            float: none;
+            margin: 0 auto 50px;
+            width: 60%;
+        }
+        .flexible_contact_us .left-section,
+        .flexible_contact_us .right-section {
+            float: none;
+            text-align: center;
+            width: 100%;
+        }
+        .footer_one_columns .flexible-footer-widget,
+        .footer_two_columns .flexible-footer-widget,
+        .footer_three_columns .flexible-footer-widget,
+        .footer_four_columns .flexible-footer-widget {
+            padding: 0 10px;
+            width: 97%;
+        }
+        #top-footer {
+            padding: 70px 0 0;
+        }
+        #primary,
+        .home.blog #primary {
+            float: none;
+            margin-bottom: 30px;
+            width: 100%;
+        }
+        #secondary,
+        .home.blog #secondary {
+            float: none;
+            width: 100%;
+        }
+    }
+    /* Landscape phones and down */
+    
+    @media (max-width: 600px) {
+        .slide-caption {
+            font-size: 26px;
+            margin-bottom: 15px;
+        }
+        .slide-info {
+            font-size: 16px;
+        }
+        .slider-btn {
+            font-size: 14px;
+            margin: 15px 0 0;
+            padding: 4px 20px;
+        }
+        .slider-caption-wrapper {
+            margin-left: -50%;
+            top: 58%;
+            width: 100%;
+        }
+        .portfolio-pages-wrapper > .single-portfolio-wrapper.clearfix {
+            display: block;
+            width: 50%;
+        }
+        .cta-title-wrap {
+            text-align: center;
+            width: 100%;
+        }
+        .cta-button {
+            float: none;
+        }
+        .cta-content-wrapper {
+            text-align: center;
+        }
+        .eroor-num {
+            font-size: 74px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .flexible_services_section .service-pages-wrapper .single-service-wrapper.clearfix {
+            width: 97%;
+        }
+        .portfolio-pages-wrapper > .single-portfolio-wrapper.clearfix {
+            display: block;
+            width: 100%;
+        }
+        .single-post-wrapper.mt-column-3 {
+            width: 90%;
+        }
+        .contact-info {
+            float: none;
+            margin: 0;
+            width: 100%;
+        }
+        .slide-info {
+            display: none;
+        }
+        .slide-caption {
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+        .slider-btn {
+            font-size: 13px;
+            margin: 5px 0 0;
+            padding: 2px 21px;
+        }
+    }
