@@ -1,0 +1,750 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flexible\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Wed Jun 01 2016 00:56:34 GMT+0500 (Pakistan Standard "
+"Time)\n"
+"POT-Revision-Date: Wed Jun 01 2016 00:57:00 GMT+0500 (Pakistan Standard "
+"Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: ../comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:40 ../comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:43 ../comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:44 ../comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: ../footer.php:24
+msgid "2016 Flexible"
+msgstr ""
+
+#: ../footer.php:27
+#, php-format
+msgid "%1$s by %2$s."
+msgstr ""
+
+#: ../functions.php:55
+msgid "Primary"
+msgstr ""
+
+#: ../search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../inc/flexible-functions.php:22 ../inc/widgets/flexible-widget-fields.php:150
+msgid "Upload"
+msgstr ""
+
+#: ../inc/flexible-functions.php:23 ../inc/widgets/flexible-widget-fields.php:152 
+#: ../inc/widgets/flexible-widget-fields.php:161
+msgid "Remove"
+msgstr ""
+
+#: ../inc/flexible-functions.php:132 ../inc/widgets/flexible-about-page.php:51 ..
+#: /inc/widgets/flexible-contact-us.php:64
+msgid "Select Page"
+msgstr ""
+
+#: ../inc/flexible-functions.php:141
+msgid "Select Category"
+msgstr ""
+
+#: ../inc/flexible-widgets.php:11
+msgid "Sidebar"
+msgstr ""
+
+#: ../inc/flexible-widgets.php:21 ../inc/admin/assets/flexible-sanitize.php:50 ..
+#: /inc/admin/assets/panels/design-panel.php:55 ../inc/admin/assets/panels/design-
+#: panel.php:133 ../inc/admin/assets/panels/design-panel.php:168 ..
+#: /inc/admin/metabox/flexible-page-metabox.php:46 ../inc/admin/metabox/flexible-
+#: post-metabox.php:37
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../inc/flexible-widgets.php:31
+msgid "Front Page Widgets Area"
+msgstr ""
+
+#: ../inc/flexible-widgets.php:41
+msgid "Footer Column First"
+msgstr ""
+
+#: ../inc/flexible-widgets.php:51
+msgid "Footer Column Second"
+msgstr ""
+
+#: ../inc/flexible-widgets.php:61
+msgid "Footer Column Third"
+msgstr ""
+
+#: ../inc/flexible-widgets.php:71
+msgid "Footer Column Forth"
+msgstr ""
+
+#: ../inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: ../inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#: ../inc/template-tags.php:41
+msgid "Comment (0)"
+msgstr ""
+
+#: ../inc/template-tags.php:41
+msgid "Comment (1)"
+msgstr ""
+
+#: ../inc/template-tags.php:41
+msgid "Comments (%)"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#: ../inc/template-tags.php:56 ../inc/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#: ../inc/template-tags.php:58
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: ../inc/template-tags.php:64
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#: ../inc/template-tags.php:71 ../template-parts/content-page.php:33 ..
+#: /templates/flexible-portfolio.php:43 ../templates/flexible-services.php:43
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: ../inc/admin/assets/flexible-custom-classes.php:21
+msgid "&mdash; Select Category &mdash;"
+msgstr ""
+
+#: ../inc/admin/assets/flexible-sanitize.php:36
+msgid "Wide Layout"
+msgstr ""
+
+#: ../inc/admin/assets/flexible-sanitize.php:37
+msgid "Boxed Layout"
+msgstr ""
+
+#: ../inc/admin/assets/flexible-sanitize.php:49 ../inc/admin/assets/panels/design-
+#: panel.php:54 ../inc/admin/assets/panels/design-panel.php:132 ..
+#: /inc/admin/assets/panels/design-panel.php:167 ../inc/admin/metabox/flexible-
+#: page-metabox.php:41 ../inc/admin/metabox/flexible-post-metabox.php:32
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../inc/admin/assets/flexible-sanitize.php:51 ../inc/admin/assets/panels/design-
+#: panel.php:56 ../inc/admin/assets/panels/design-panel.php:134 ..
+#: /inc/admin/assets/panels/design-panel.php:169
+msgid "No sidebar Full Width"
+msgstr ""
+
+#: ../inc/admin/assets/flexible-sanitize.php:52 ../inc/admin/assets/panels/design-
+#: panel.php:57 ../inc/admin/assets/panels/design-panel.php:135 ..
+#: /inc/admin/assets/panels/design-panel.php:170
+msgid "No sidebar Centered"
+msgstr ""
+
+#: ../inc/admin/assets/flexible-sanitize.php:64 ../inc/admin/assets/panels/footer-
+#: panel.php:55
+msgid "Four Columns"
+msgstr ""
+
+#: ../inc/admin/assets/flexible-sanitize.php:65 ../inc/admin/assets/panels/footer-
+#: panel.php:56
+msgid "Three Columns"
+msgstr ""
+
+#: ../inc/admin/assets/flexible-sanitize.php:66 ../inc/admin/assets/panels/footer-
+#: panel.php:57
+msgid "Two Columns"
+msgstr ""
+
+#: ../inc/admin/assets/flexible-sanitize.php:67 ../inc/admin/assets/panels/footer-
+#: panel.php:58
+msgid "One Column"
+msgstr ""
+
+#: ../inc/admin/assets/panels/design-panel.php:22
+msgid "Design Settings"
+msgstr ""
+
+#: ../inc/admin/assets/panels/design-panel.php:32
+msgid "Archive Settings"
+msgstr ""
+
+#: ../inc/admin/assets/panels/design-panel.php:51 ..
+#: /inc/admin/assets/panels/design-panel.php:129 ..
+#: /inc/admin/assets/panels/design-panel.php:164
+msgid "Available Sidebars"
+msgstr ""
+
+#: ../inc/admin/assets/panels/design-panel.php:75
+msgid "Archive Excerpt Length"
+msgstr ""
+
+#: ../inc/admin/assets/panels/design-panel.php:76
+msgid "Number of words to be display in content."
+msgstr ""
+
+#: ../inc/admin/assets/panels/design-panel.php:90 ../inc/widgets/flexible-latest-
+#: news.php:156 ../template-parts/content-archive.php:18 ../template-
+#: parts/content.php:18
+msgid "Read More"
+msgstr ""
+
+#: ../inc/admin/assets/panels/design-panel.php:100
+msgid "Read More button label"
+msgstr ""
+
+#: ../inc/admin/assets/panels/design-panel.php:111
+msgid "Post Settings"
+msgstr ""
+
+#: ../inc/admin/assets/panels/design-panel.php:146
+msgid "Page Settings"
+msgstr ""
+
+#: ../inc/admin/assets/panels/design-panel.php:181
+msgid "Custom Design"
+msgstr ""
+
+#: ../inc/admin/assets/panels/design-panel.php:201
+msgid "Custom css"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:22
+msgid "Footer Settings"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:32
+msgid "Widget Settings"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:51
+msgid "Available Options"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:52
+msgid "Choose option to display footer widget layout."
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:69 ..
+#: /inc/admin/assets/panels/footer-panel.php:89
+msgid "Footer Copyright"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:91
+msgid "Edit your copyright content."
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:103
+msgid "Social Media"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:121
+msgid "Social Media Section"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:122
+msgid "Checked to disabled social media section."
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:132
+msgid "https://facebook.com/"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:142
+msgid "Facebook"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:151
+msgid "https://twitter.com/"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:161
+msgid "Twitter"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:170
+msgid "https://plus.google.com/"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:180
+msgid "Google Plus"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:189
+msgid "https://linkedin.com/"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:199
+msgid "LinkedIn"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:208
+msgid "https://youtube.com/"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:218
+msgid "YouTube"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:227
+msgid "https://vimeo.com/"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:237
+msgid "Vimeo"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:246
+msgid "https://www.pinterest.com/"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:256
+msgid "Pinterest"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:265
+msgid "https://www.instagram.com"
+msgstr ""
+
+#: ../inc/admin/assets/panels/footer-panel.php:275
+msgid "Instagram"
+msgstr ""
+
+#: ../inc/admin/assets/panels/frontpage-panel.php:26
+msgid "FrontPage Settings"
+msgstr ""
+
+#: ../inc/admin/assets/panels/frontpage-panel.php:36
+msgid "Slider Settings"
+msgstr ""
+
+#: ../inc/admin/assets/panels/frontpage-panel.php:55
+msgid "Slider Section Option"
+msgstr ""
+
+#: ../inc/admin/assets/panels/frontpage-panel.php:56
+msgid "Checked to disabled homepage slider section."
+msgstr ""
+
+#: ../inc/admin/assets/panels/frontpage-panel.php:78
+msgid "Slider "
+msgstr ""
+
+#: ../inc/admin/assets/panels/frontpage-panel.php:96
+msgid "Image Caption"
+msgstr ""
+
+#: ../inc/admin/assets/panels/frontpage-panel.php:98
+msgid "Add caption for slider image."
+msgstr ""
+
+#: ../inc/admin/assets/panels/frontpage-panel.php:117
+msgid "Image Description"
+msgstr ""
+
+#: ../inc/admin/assets/panels/frontpage-panel.php:119
+msgid "Add description for slider image."
+msgstr ""
+
+#: ../inc/admin/assets/panels/frontpage-panel.php:137
+msgid "Button Text"
+msgstr ""
+
+#: ../inc/admin/assets/panels/frontpage-panel.php:139
+msgid "Add a text for slide button."
+msgstr ""
+
+#: ../inc/admin/assets/panels/frontpage-panel.php:157
+msgid "Button url"
+msgstr ""
+
+#: ../inc/admin/assets/panels/frontpage-panel.php:159
+msgid "Add a url about slide button."
+msgstr ""
+
+#: ../inc/admin/assets/panels/frontpage-panel.php:178
+msgid "Slider Image"
+msgstr ""
+
+#: ../inc/admin/assets/panels/frontpage-panel.php:180
+msgid "Added image for slider."
+msgstr ""
+
+#: ../inc/admin/assets/panels/general-panel.php:33
+msgid "General Settings"
+msgstr ""
+
+#: ../inc/admin/assets/panels/general-panel.php:53
+msgid "Theme Color"
+msgstr ""
+
+#: ../inc/admin/assets/panels/header-panel.php:21
+msgid "Header Settings"
+msgstr ""
+
+#: ../inc/admin/assets/panels/header-panel.php:31
+msgid "Header Extra Options"
+msgstr ""
+
+#: ../inc/admin/assets/panels/header-panel.php:50
+msgid "Sticky Header Option"
+msgstr ""
+
+#: ../inc/admin/assets/panels/header-panel.php:51
+msgid "Checked to disabled header section sticky features."
+msgstr ""
+
+#: ../inc/admin/assets/panels/header-panel.php:70
+msgid "Search Icon"
+msgstr ""
+
+#: ../inc/admin/assets/panels/header-panel.php:71
+msgid "Checked to add search icon at menu section."
+msgstr ""
+
+#. $id
+#: ../inc/admin/metabox/flexible-page-metabox.php:14
+msgid "Page Sidebar"
+msgstr ""
+
+#. $id
+#: ../inc/admin/metabox/flexible-page-metabox.php:23
+msgid "Page Icon"
+msgstr ""
+
+#: ../inc/admin/metabox/flexible-page-metabox.php:36 ..
+#: /inc/admin/metabox/flexible-post-metabox.php:27
+msgid "Default Layout"
+msgstr ""
+
+#: ../inc/admin/metabox/flexible-page-metabox.php:51 ..
+#: /inc/admin/metabox/flexible-post-metabox.php:42
+msgid "No Sidebar Full Width"
+msgstr ""
+
+#: ../inc/admin/metabox/flexible-page-metabox.php:56 ..
+#: /inc/admin/metabox/flexible-post-metabox.php:47
+msgid "No Sidebar Content Centered"
+msgstr ""
+
+#: ../inc/admin/metabox/flexible-page-metabox.php:94
+msgid "Font Awesome Icon"
+msgstr ""
+
+#: ../inc/admin/metabox/flexible-page-metabox.php:96
+msgid "Add font awesome icon for service page."
+msgstr ""
+
+#. $id
+#: ../inc/admin/metabox/flexible-post-metabox.php:14
+msgid "Post Sidebar"
+msgstr ""
+
+#: ../inc/widgets/flexible-about-page.php:21
+msgid "Show your page in about section."
+msgstr ""
+
+#: ../inc/widgets/flexible-about-page.php:23
+msgid "Flexible: About Us Section"
+msgstr ""
+
+#: ../inc/widgets/flexible-about-page.php:38 ../inc/widgets/flexible-clients.php:
+#: 38 ../inc/widgets/flexible-contact-us.php:38 ../inc/widgets/flexible-latest-
+#: news.php:38 ../inc/widgets/flexible-portfolios.php:36 ../inc/widgets/flexible-
+#: services.php:38 ../inc/widgets/flexible-testimonials.php:38
+msgid "Section ID"
+msgstr ""
+
+#: ../inc/widgets/flexible-about-page.php:39 ../inc/widgets/flexible-clients.php:
+#: 39 ../inc/widgets/flexible-contact-us.php:39 ../inc/widgets/flexible-latest-
+#: news.php:39 ../inc/widgets/flexible-portfolios.php:37 ../inc/widgets/flexible-
+#: services.php:39 ../inc/widgets/flexible-testimonials.php:39
+msgid "Section Id is only used in One Page Menu."
+msgstr ""
+
+#: ../inc/widgets/flexible-about-page.php:45 ../inc/widgets/flexible-clients.php:
+#: 45 ../inc/widgets/flexible-contact-us.php:45 ../inc/widgets/flexible-latest-
+#: news.php:45 ../inc/widgets/flexible-portfolios.php:43 ../inc/widgets/flexible-
+#: services.php:45 ../inc/widgets/flexible-testimonials.php:45
+msgid "Section Title"
+msgstr ""
+
+#: ../inc/widgets/flexible-clients.php:21
+msgid "Display posts from sponsors category"
+msgstr ""
+
+#: ../inc/widgets/flexible-clients.php:23
+msgid "Flexible: Sponsors"
+msgstr ""
+
+#: ../inc/widgets/flexible-clients.php:51 ../inc/widgets/flexible-contact-us.php:
+#: 51 ../inc/widgets/flexible-latest-news.php:51 ../inc/widgets/flexible-
+#: portfolios.php:49 ../inc/widgets/flexible-services.php:51 ..
+#: /inc/widgets/flexible-testimonials.php:51
+msgid "Section Info"
+msgstr ""
+
+#: ../inc/widgets/flexible-clients.php:58
+msgid "Section Category"
+msgstr ""
+
+#: ../inc/widgets/flexible-contact-us.php:21
+msgid "Display contact form and related information."
+msgstr ""
+
+#: ../inc/widgets/flexible-contact-us.php:23
+msgid "Flexible: Contact Us"
+msgstr ""
+
+#: ../inc/widgets/flexible-contact-us.php:58
+msgid "Section Background"
+msgstr ""
+
+#: ../inc/widgets/flexible-contact-us.php:72
+msgid "Address"
+msgstr ""
+
+#: ../inc/widgets/flexible-contact-us.php:78
+msgid "Phone"
+msgstr ""
+
+#: ../inc/widgets/flexible-contact-us.php:84
+msgid "Email"
+msgstr ""
+
+#: ../inc/widgets/flexible-contact-us.php:90
+msgid "Map Section"
+msgstr ""
+
+#: ../inc/widgets/flexible-cta.php:21
+msgid "Widget for awesome call to action."
+msgstr ""
+
+#: ../inc/widgets/flexible-cta.php:23
+msgid "Flexible: Call to Action"
+msgstr ""
+
+#: ../inc/widgets/flexible-cta.php:36
+msgid "Call to Action Title"
+msgstr ""
+
+#: ../inc/widgets/flexible-cta.php:42
+msgid "Call to Action Description"
+msgstr ""
+
+#: ../inc/widgets/flexible-cta.php:50
+msgid "Call to Action Background"
+msgstr ""
+
+#: ../inc/widgets/flexible-cta.php:56
+msgid "Call to Action Button Text"
+msgstr ""
+
+#: ../inc/widgets/flexible-cta.php:62
+msgid "Call to Action Button Url"
+msgstr ""
+
+#: ../inc/widgets/flexible-latest-news.php:21
+msgid "Display latest posts except from selected categories."
+msgstr ""
+
+#: ../inc/widgets/flexible-latest-news.php:23
+msgid "Flexible: Latest News"
+msgstr ""
+
+#: ../inc/widgets/flexible-latest-news.php:58
+msgid "Latest News Categories"
+msgstr ""
+
+#: ../inc/widgets/flexible-portfolios.php:21
+msgid "Display posts in portfolio section which page have portfolio template."
+msgstr ""
+
+#: ../inc/widgets/flexible-portfolios.php:23
+msgid "Flexible: Portfolio Section"
+msgstr ""
+
+#: ../inc/widgets/flexible-portfolios.php:56 ../inc/widgets/flexible-services.php:
+#: 64
+msgid "Number of pages to display"
+msgstr ""
+
+#: ../inc/widgets/flexible-portfolios.php:63
+msgid ""
+"Note: Create the pages and select Portfolio Template to display in portfolio "
+"section."
+msgstr ""
+
+#: ../inc/widgets/flexible-services.php:21
+msgid "Display some pages in services section."
+msgstr ""
+
+#: ../inc/widgets/flexible-services.php:23
+msgid "Flexible: Services Section"
+msgstr ""
+
+#: ../inc/widgets/flexible-services.php:58
+msgid "Section Background Image"
+msgstr ""
+
+#: ../inc/widgets/flexible-services.php:71
+msgid ""
+"Note: Create the pages and select Services Template to display Services "
+"pages."
+msgstr ""
+
+#: ../inc/widgets/flexible-testimonials.php:21
+msgid "Display posts from selected category in testimonials section."
+msgstr ""
+
+#: ../inc/widgets/flexible-testimonials.php:23
+msgid "Flexible: Testimonials Section"
+msgstr ""
+
+#: ../inc/widgets/flexible-testimonials.php:58
+msgid "Select category"
+msgstr ""
+
+#: ../inc/widgets/flexible-widget-fields.php:147
+msgid "No file chosen"
+msgstr ""
+
+#: ../inc/widgets/flexible-widget-fields.php:155
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: ../template-parts/content-archive.php:46 ../template-parts/content-page.php:22 
+#: ../template-parts/content-single.php:44 ../template-parts/content.php:46 ..
+#: /templates/flexible-portfolio.php:32 ../templates/flexible-services.php:32
+msgid "Pages:"
+msgstr ""
+
+#: ../template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: ../template-parts/content-none.php:21
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../template-parts/content-single.php:39
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Name of the template
+msgid "Home Page"
+msgstr ""
+
+#. Name of the template
+msgid "Portfolio"
+msgstr ""
+
+#. Name of the template
+msgid "Services"
+msgstr ""
+
+#. Name of the theme
+msgid "Flexible"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://mysterythemes.com/wp-themes/flexible/"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Flexible is a Elegant &amp; Creative One Page parallax Wordpress theme which "
+"have many powerful features to allow you build websites very easy and "
+"unlimited your creative to make impressed websites. Demo url: http://demo."
+"mysterythemes.com/flexible"
+msgstr ""
+
+#. Author of the theme
+msgid "Mystery Themes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://mysterythemes.com"
+msgstr ""
