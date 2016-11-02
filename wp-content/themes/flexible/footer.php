@@ -23,12 +23,12 @@
 					<div class="flexible-copyright-wrapper">
 						<?php $flexible_copyright_txt = get_theme_mod( 'flexible_copyright_txt', __( '2016 Flexible', 'flexible' ) ); ?>
 						<span class="flexible-copyright"><?php echo wp_kses_post( $flexible_copyright_txt ); ?></span>
-						<span class="sep"> | </span>
-						<?php printf( esc_html__( '%1$s by %2$s.', 'flexible' ), 'Flexible Theme', '<a href="'. esc_url( 'http://mysterythemes.com/wp-themes/flexible/' ).'" rel="designer">Mystery Themes</a>' ); ?>
-					</div>
-					<div class="flexible-social-media">
-						<?php flexible_social_media(); ?>
-					</div><!-- .flexible-social-media -->
+						<!--<span class="sep"> | </span>
+						<?php /*printf( esc_html__( '%1$s by %2$s.', 'flexible' ), 'Flexible Theme', '<a href="'. esc_url( 'http://mysterythemes.com/wp-themes/flexible/' ).'" rel="designer">Mystery Themes</a>' ); */?>
+					--></div>
+					<div class="flexible-social-media"><!--
+						<?php /*flexible_social_media(); */?>
+					-->沪ICP备16039692号-2</div><!-- .flexible-social-media -->
 				</div>
 			</div><!-- .site-info -->
 	</footer><!-- #colophon -->
